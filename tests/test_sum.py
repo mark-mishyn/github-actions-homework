@@ -14,7 +14,7 @@ def test_success_ints():
 def test_success_floats():
     response = client.get("/sum/1/2.2")
     assert response.status_code == 200
-    assert response.json() == {"sum": 3.3}
+    assert response.json() == {"sum": 3.2}
 
 
 def test_success_not_a_number():
