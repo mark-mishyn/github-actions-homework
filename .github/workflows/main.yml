@@ -1,10 +1,10 @@
-name: Python package
+name: Install dependencies, lint and test
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
